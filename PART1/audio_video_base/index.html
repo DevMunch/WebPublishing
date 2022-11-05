@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="robots" content="index, follow">
+    <title>오디오 비디오 구현</title>
+</head>
+
+<body>
+    <h1>멀티미디어</h1>
+    <h2>video</h2>
+    <!-- controls : 재생가능, autoplay : 자동 재생, muted 음소거 -->
+    <!-- <video src="video/vivaldi.mp4" controls autoplay muted></video> -->
+
+    <video controls>
+        <source src="media/sample.ogg" type="video/ogg">
+        <source src="media/sample.mp4" type="video/mp4">
+        <source src="media/sample.webm" type="vidio/webm">
+        <span>이 브라우저는 video요소를 지원하지 않습니다.</span>
+    </video>
+
+    <audio src="audio/Honey_Bee_01_web.mp3" controls></audio>
+
+    <audio controls>
+        <source src="media/song.ogg" type="audio/ogg">
+        <source src="media/song.mp3" type="audio/mpeg">
+        <span>이 브라우저는 audio 요소를 지원하지 않습니다.</span>
+    </audio>
+</body>
+
+</html>
